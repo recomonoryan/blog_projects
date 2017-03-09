@@ -1,0 +1,71 @@
+body{
+	background-color: #e9e9e9;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#login-container{
+	margin-top: 150px;
+}
+
+.heading-tabs{
+	text-align: center;
+}
+
+#login-tab, #register-tab{
+	padding-top: 9px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+#login-tab{
+	border-top-left-radius: 3px;
+}
+
+#register-tab{
+	border-top-right-radius: 3px;
+	/*background-color: #ff9933;*/
+}
+
+#link-login, #link-register{
+	text-decoration: none;
+}
+
+.active{
+	background-color: #47d147;
+	color: #ffffff;
+}
+
+.panel-heading{
+	padding: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.btn-primary{
+	background-color: #47d147;
+	border-color: #33cc33;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+	background-color: #47d147;
+	border-color: #33cc33;
+}
+
+#form-register{
+	display: none;
+}
+
+.panel{
+	box-shadow: 5px 5px 5px #888;
+}
+
+@media (max-width: 767px){
+	#login-tab{
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
+	#register-tab{
+		border-top-right-radius: 0px;
+	}
+}
